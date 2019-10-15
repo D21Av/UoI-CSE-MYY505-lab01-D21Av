@@ -1,0 +1,13 @@
+language: java
+notifications:
+    email: false
+# Remove the line above, remove comments and write your email address after the '-' to receive email notifications
+#    recipients:
+#        - csXXX@cse.uoi.gr
+branches:
+  only:
+    - master
+install: true
+script: 
+    - javac -cp munit.jar Lab01Test.java
+    - java -jar munit.jar lab01.asm Lab01Test.class
