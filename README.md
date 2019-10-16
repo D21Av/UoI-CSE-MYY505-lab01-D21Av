@@ -1,16 +1,12 @@
 
 ## UoI-CSE-MYY505 lab01
 
-## First-Name Last-Name
+## Dimitris Anagnostou
 
 **TODO - Update your name in this readme. Leave 1 space after the ## to preserve the text formating**
 
-**TODO - Add a badge from travis CI here.**
-This is how: go to https://travis-ci.com/UoI-CSE-MYY505/lab01-ghUsername.
-**Do not use travis-ci.org !!!**
-Click on the "build badge" (to the right of the organization/repo name,
-select "master" and "Markdown" and copy the text into here, replacing this paragraph.
-Edit this file in GitHub (click on README.md and then the pencil icon) or locally with a text editor and then commit and push it to gitHub.
+[![Build Status](https://travis-ci.com/UoI-CSE-MYY505/lab01-D21Av.svg?token=VxpA9hjUqn9MpQ1KfNix&branch=master)](https://travis-ci.com/UoI-CSE-MYY505/lab01-D21Av)
+
 
 
 ## Problem statement:

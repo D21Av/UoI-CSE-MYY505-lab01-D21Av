@@ -1,9 +1,7 @@
 language: java
 notifications:
-    email: false
-# Remove the line above, remove comments and write your email address after the '-' to receive email notifications
-#    recipients:
-#        - csXXX@cse.uoi.gr
+    recipients:
+        -dimitris214@yahoo.gr
 branches:
   only:
     - master

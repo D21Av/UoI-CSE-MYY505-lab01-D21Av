@@ -27,7 +27,7 @@ prog:   # Words ending with ':' are **labels**
         # Try to keep label names short so they are to the left of instructions
         # It's best not to write instrucions in the same line as a label.
 
-        li         $s0, 100          # Get value 100 into register $s0. li - load immediate
+        lw         $s0, 0($a0)          # Get value 100 into register $s0. li - load immediate
                                      # THIS WILL BE MODIFIED TO LOAD FROM matric
         
         lw         $s1, 0($a1)       # $s1 gets the value of var1. $a1 has the address of var1
@@ -61,7 +61,7 @@ exit:
         # Usually data are declared before text. Try to follow that convention 
         #     in your other programs!
         #  
-matric: .word 0    # This will be used by your submitted code
+matric: .word 4025    # This will be used by your submitted code
 var1:   .word 1
 array:  .word 0 : 9 # Array of 9 words (initialized to 0)
 var2:   .byte -1
