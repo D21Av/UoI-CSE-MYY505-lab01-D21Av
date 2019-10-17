@@ -3,8 +3,6 @@
 
 ## Dimitris Anagnostou
 
-**TODO - Update your name in this readme. Leave 1 space after the ## to preserve the text formating**
-
 [![Build Status](https://travis-ci.com/UoI-CSE-MYY505/lab01-D21Av.svg?token=VxpA9hjUqn9MpQ1KfNix&branch=master)](https://travis-ci.com/UoI-CSE-MYY505/lab01-D21Av)
 
 
